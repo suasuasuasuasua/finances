@@ -51,7 +51,13 @@ variables. **This is my preferred method.**
 
 ## Running the Code
 
-I would recommend using a Jupyter notebook setup. You can do so in a few ways.
+See the example [env file](./example.env) for a quick tutorial on how to set
+these environment variables for your income, expenses, and whatever. I
+__strongly__ recommend against hard-coding and committing this information for
+privacy reasons.
+
+To run the code, I recommend using a Jupyter notebook setup. You can do so in a
+few ways. See my example [here](./sankey.ipynb).
 
 1. [JupyterLab](https://jupyter.org)
 
