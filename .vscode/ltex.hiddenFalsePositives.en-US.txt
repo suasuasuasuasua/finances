@@ -1,0 +1,2 @@
+{"rule":"MISSING_GENITIVE","sentence":"^\\QSankey diagrams are basically fancy graphs.\\E$"}
+{"rule":"MISSING_GENITIVE","sentence":"^\\QSankey diagrams are basically fancy graphs that show the flow of data, money, or anything into sub-buckets.\\E$"}

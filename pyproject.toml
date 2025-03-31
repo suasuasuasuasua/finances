@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "finances"
+version = "0.1.0"
+description = ""
+authors = ["Justin Hoang <j124.dev@proton.me>"]
+readme = "README.md"
+
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+plotly = "^6.0.1"
+pandas = "^2.2.3"
+kaleido = "0.2.1"
+python-dotenv = "^1.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+jupyter = "^1.1.1"
+black = { extras = ["jupyter"], version = "^25.1.0" }
+isort = "^6.0.1"
+nbqa = "^1.9.1"
+jupyterlab = "^4.3.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
