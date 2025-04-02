@@ -1,4 +1,15 @@
 {
   "editor.rulers": [80, 81],
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "ltex.enabled": [
+    "bibtex",
+    "context",
+    "context.tex",
+    // "html", // the html files are huge!
+    "latex",
+    "markdown",
+    "org",
+    "restructuredtext",
+    "rsweave"
+  ]
 }
